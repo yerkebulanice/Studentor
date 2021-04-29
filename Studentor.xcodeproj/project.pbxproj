@@ -14,6 +14,10 @@
 		060F99CE26399676007C0377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060F99CD26399676007C0377 /* Assets.xcassets */; };
 		060F99D126399676007C0377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060F99CF26399676007C0377 /* LaunchScreen.storyboard */; };
 		060F99E026399CFF007C0377 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060F99DF26399CFF007C0377 /* RegistrationViewController.swift */; };
+		06EA1500263B3B1E00BA2364 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA14FF263B3B1E00BA2364 /* LoginViewController.swift */; };
+		06EA1503263B467B00BA2364 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA1502263B467B00BA2364 /* BasicViewController.swift */; };
+		06EA1509263B48E400BA2364 /* CoursesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA1507263B48E400BA2364 /* CoursesCollectionView.swift */; };
+		06EA150A263B48E400BA2364 /* CoursesCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06EA1508263B48E400BA2364 /* CoursesCollectionView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		060F99D026399676007C0377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		060F99D226399676007C0377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		060F99DF26399CFF007C0377 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		06EA14FF263B3B1E00BA2364 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		06EA1502263B467B00BA2364 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		06EA1507263B48E400BA2364 /* CoursesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesCollectionView.swift; sourceTree = "<group>"; };
+		06EA1508263B48E400BA2364 /* CoursesCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoursesCollectionView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		060F99C326399673007C0377 /* Studentor */ = {
 			isa = PBXGroup;
 			children = (
+				06EA1506263B48CA00BA2364 /* Cell */,
 				060F99DD26399770007C0377 /* View */,
 				060F99DC26399720007C0377 /* Model */,
 				060F99DB2639971A007C0377 /* Controller */,
@@ -83,6 +92,8 @@
 			children = (
 				060F99C826399673007C0377 /* MainViewController.swift */,
 				060F99DF26399CFF007C0377 /* RegistrationViewController.swift */,
+				06EA14FF263B3B1E00BA2364 /* LoginViewController.swift */,
+				06EA1502263B467B00BA2364 /* BasicViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -100,6 +111,15 @@
 				060F99CA26399673007C0377 /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		06EA1506263B48CA00BA2364 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				06EA1507263B48E400BA2364 /* CoursesCollectionView.swift */,
+				06EA1508263B48E400BA2364 /* CoursesCollectionView.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				060F99D126399676007C0377 /* LaunchScreen.storyboard in Resources */,
+				06EA150A263B48E400BA2364 /* CoursesCollectionView.xib in Resources */,
 				060F99CE26399676007C0377 /* Assets.xcassets in Resources */,
 				060F99CC26399673007C0377 /* Main.storyboard in Resources */,
 			);
@@ -173,8 +194,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				060F99C926399673007C0377 /* MainViewController.swift in Sources */,
+				06EA1503263B467B00BA2364 /* BasicViewController.swift in Sources */,
+				06EA1509263B48E400BA2364 /* CoursesCollectionView.swift in Sources */,
 				060F99C526399673007C0377 /* AppDelegate.swift in Sources */,
 				060F99E026399CFF007C0377 /* RegistrationViewController.swift in Sources */,
+				06EA1500263B3B1E00BA2364 /* LoginViewController.swift in Sources */,
 				060F99C726399673007C0377 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

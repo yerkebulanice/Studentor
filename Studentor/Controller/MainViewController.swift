@@ -18,7 +18,7 @@ class MainViewController: UIViewController {
 
     @IBAction func getStartedButtonPressed(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        if let vc = storyboard.instantiateViewController(withIdentifier: "RegistrationViewController") as? RegistrationViewController {
+        if let vc = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController {
             vc.modalPresentationStyle = .fullScreen
             self.present(vc, animated: true, completion: nil)
         }
