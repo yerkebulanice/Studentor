@@ -20,7 +20,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func forwardButtonPressed(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        if let vc = storyboard.instantiateViewController(withIdentifier: "BasicViewController") as? BasicViewController {
+        if let vc = storyboard.instantiateViewController(withIdentifier: "TabBarController") as? TabBarController {
             vc.modalPresentationStyle = .fullScreen
             self.present(vc, animated: false, completion: nil)
         }

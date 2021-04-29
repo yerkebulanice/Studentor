@@ -14,10 +14,13 @@
 		060F99CE26399676007C0377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060F99CD26399676007C0377 /* Assets.xcassets */; };
 		060F99D126399676007C0377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060F99CF26399676007C0377 /* LaunchScreen.storyboard */; };
 		060F99E026399CFF007C0377 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060F99DF26399CFF007C0377 /* RegistrationViewController.swift */; };
+		0655965B263B77AD00C089BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0655965A263B77AD00C089BA /* GoogleService-Info.plist */; };
+		06B4856F6841B4C4D0C2492E /* Pods_Studentor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD019FEB07122A1802097CD2 /* Pods_Studentor.framework */; };
 		06EA1500263B3B1E00BA2364 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA14FF263B3B1E00BA2364 /* LoginViewController.swift */; };
 		06EA1503263B467B00BA2364 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA1502263B467B00BA2364 /* BasicViewController.swift */; };
 		06EA1509263B48E400BA2364 /* CoursesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA1507263B48E400BA2364 /* CoursesCollectionView.swift */; };
 		06EA150A263B48E400BA2364 /* CoursesCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06EA1508263B48E400BA2364 /* CoursesCollectionView.xib */; };
+		06EA1526263B6B6E00BA2364 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA1525263B6B6E00BA2364 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +33,15 @@
 		060F99D026399676007C0377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		060F99D226399676007C0377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		060F99DF26399CFF007C0377 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		0655965A263B77AD00C089BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		06EA14FF263B3B1E00BA2364 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		06EA1502263B467B00BA2364 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
 		06EA1507263B48E400BA2364 /* CoursesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesCollectionView.swift; sourceTree = "<group>"; };
 		06EA1508263B48E400BA2364 /* CoursesCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoursesCollectionView.xib; sourceTree = "<group>"; };
+		06EA1525263B6B6E00BA2364 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		38C6A7026994B082F2F5DAD0 /* Pods-Studentor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studentor.debug.xcconfig"; path = "Target Support Files/Pods-Studentor/Pods-Studentor.debug.xcconfig"; sourceTree = "<group>"; };
+		CD019FEB07122A1802097CD2 /* Pods_Studentor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Studentor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9DD5CB2AFD5CD43CF839F6 /* Pods-Studentor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studentor.release.xcconfig"; path = "Target Support Files/Pods-Studentor/Pods-Studentor.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06B4856F6841B4C4D0C2492E /* Pods_Studentor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,8 @@
 			children = (
 				060F99C326399673007C0377 /* Studentor */,
 				060F99C226399673007C0377 /* Products */,
+				59B7A45A14D0451D8970DA57 /* Pods */,
+				F4654E45AD41CAEA9FAD6E50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +84,7 @@
 				060F99DA26399713007C0377 /* Extra */,
 				060F99CD26399676007C0377 /* Assets.xcassets */,
 				060F99D226399676007C0377 /* Info.plist */,
+				0655965A263B77AD00C089BA /* GoogleService-Info.plist */,
 			);
 			path = Studentor;
 			sourceTree = "<group>";
@@ -94,6 +106,7 @@
 				060F99DF26399CFF007C0377 /* RegistrationViewController.swift */,
 				06EA14FF263B3B1E00BA2364 /* LoginViewController.swift */,
 				06EA1502263B467B00BA2364 /* BasicViewController.swift */,
+				06EA1525263B6B6E00BA2364 /* TabBarController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -122,6 +135,24 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		59B7A45A14D0451D8970DA57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38C6A7026994B082F2F5DAD0 /* Pods-Studentor.debug.xcconfig */,
+				FD9DD5CB2AFD5CD43CF839F6 /* Pods-Studentor.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4654E45AD41CAEA9FAD6E50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD019FEB07122A1802097CD2 /* Pods_Studentor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 060F99D526399676007C0377 /* Build configuration list for PBXNativeTarget "Studentor" */;
 			buildPhases = (
+				98EEBDFC4FB40AF2F7F0F5C9 /* [CP] Check Pods Manifest.lock */,
 				060F99BD26399673007C0377 /* Sources */,
 				060F99BE26399673007C0377 /* Frameworks */,
 				060F99BF26399673007C0377 /* Resources */,
+				5CD2BF24512EFC27303D0271 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,6 +214,7 @@
 			files = (
 				060F99D126399676007C0377 /* LaunchScreen.storyboard in Resources */,
 				06EA150A263B48E400BA2364 /* CoursesCollectionView.xib in Resources */,
+				0655965B263B77AD00C089BA /* GoogleService-Info.plist in Resources */,
 				060F99CE26399676007C0377 /* Assets.xcassets in Resources */,
 				060F99CC26399673007C0377 /* Main.storyboard in Resources */,
 			);
@@ -188,12 +222,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5CD2BF24512EFC27303D0271 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Studentor/Pods-Studentor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Studentor/Pods-Studentor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Studentor/Pods-Studentor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98EEBDFC4FB40AF2F7F0F5C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Studentor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		060F99BD26399673007C0377 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				060F99C926399673007C0377 /* MainViewController.swift in Sources */,
+				06EA1526263B6B6E00BA2364 /* TabBarController.swift in Sources */,
 				06EA1503263B467B00BA2364 /* BasicViewController.swift in Sources */,
 				06EA1509263B48E400BA2364 /* CoursesCollectionView.swift in Sources */,
 				060F99C526399673007C0377 /* AppDelegate.swift in Sources */,
@@ -343,6 +420,7 @@
 		};
 		060F99D626399676007C0377 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C6A7026994B082F2F5DAD0 /* Pods-Studentor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -362,6 +440,7 @@
 		};
 		060F99D726399676007C0377 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD9DD5CB2AFD5CD43CF839F6 /* Pods-Studentor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

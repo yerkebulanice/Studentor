@@ -342,62 +342,68 @@
             </objects>
             <point key="canvasLocation" x="1966.6666666666667" y="93.75"/>
         </scene>
-        <!--Item 2-->
+        <!--Менторы-->
         <scene sceneID="Nl9-PD-iEJ">
             <objects>
                 <viewController id="ZUx-c4-tN4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BlJ-pS-dJw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="rWH-ea-B0S"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="o7k-rA-rHV"/>
+                    <tabBarItem key="tabBarItem" title="Менторы" image="person.2" catalog="system" selectedImage="person.2.fill" id="o7k-rA-rHV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EV8-rC-vjY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2996" y="940"/>
         </scene>
-        <!--Item 1-->
+        <!--Profile-->
         <scene sceneID="rzF-E2-6xx">
             <objects>
                 <viewController id="QCj-df-otK" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fVM-HL-6cI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="SIr-vE-Ayx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="Xbw-bW-Zjn"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" selectedImage="person.fill" id="Xbw-bW-Zjn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qnz-ng-zEn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3987" y="-675"/>
+            <point key="canvasLocation" x="3993" y="940"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="MAY-PB-jt5">
             <objects>
-                <tabBarController id="pPk-N7-49v" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="q1A-mX-kLf">
+                <tabBarController storyboardIdentifier="TabBarController" modalPresentationStyle="fullScreen" id="pPk-N7-49v" customClass="TabBarController" customModule="Studentor" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" tag="1" contentMode="scaleAspectFill" semanticContentAttribute="forceRightToLeft" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" itemPositioning="fill" id="q1A-mX-kLf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="QCj-df-otK" kind="relationship" relationship="viewControllers" id="zCt-UY-qFc"/>
                         <segue destination="ZUx-c4-tN4" kind="relationship" relationship="viewControllers" id="8Q7-PP-RIs"/>
+                        <segue destination="Wm1-rF-QyO" kind="relationship" relationship="viewControllers" id="eWr-bp-dFi"/>
+                        <segue destination="K3x-Gj-cy5" kind="relationship" relationship="viewControllers" id="2bl-QV-M2v"/>
+                        <segue destination="B6t-nE-RSN" kind="relationship" relationship="viewControllers" id="h2B-tU-PG5"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4w3-p5-C6p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2996" y="94"/>
         </scene>
-        <!--Basic View Controller-->
+        <!--Главная-->
         <scene sceneID="0nU-ho-Teu">
             <objects>
                 <viewController storyboardIdentifier="BasicViewController" id="B6t-nE-RSN" customClass="BasicViewController" customModule="Studentor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OIx-kb-2wp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Привет, Сэм" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZ7-k6-dEn">
@@ -437,7 +443,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="556-BB-oaG">
-                                <rect key="frame" x="20" y="300.5" width="374" height="595.5"/>
+                                <rect key="frame" x="20" y="300.5" width="374" height="512.5"/>
                                 <color key="backgroundColor" red="0.90196078430000004" green="0.91372549020000005" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.90196078430000004" green="0.91372549020000005" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="u3k-Wq-X9f">
@@ -473,16 +479,19 @@
                             <constraint firstItem="tme-Ln-yyi" firstAttribute="trailing" secondItem="275-sQ-naQ" secondAttribute="trailing" constant="90" id="Dd4-zK-Jt0"/>
                             <constraint firstItem="tme-Ln-yyi" firstAttribute="trailing" secondItem="556-BB-oaG" secondAttribute="trailing" constant="20" id="Hed-hs-a7S"/>
                             <constraint firstItem="pXA-Rg-pYU" firstAttribute="leading" secondItem="tme-Ln-yyi" secondAttribute="leading" constant="80" id="QkY-zO-sm1"/>
-                            <constraint firstAttribute="bottom" secondItem="556-BB-oaG" secondAttribute="bottom" id="SqT-Kr-n6J"/>
                             <constraint firstItem="z1g-T9-9yC" firstAttribute="top" secondItem="pXA-Rg-pYU" secondAttribute="bottom" constant="35" id="f1E-zT-RsE"/>
                             <constraint firstItem="pXA-Rg-pYU" firstAttribute="top" secondItem="275-sQ-naQ" secondAttribute="bottom" constant="20" id="kwI-B9-ROo"/>
                             <constraint firstItem="556-BB-oaG" firstAttribute="top" secondItem="z1g-T9-9yC" secondAttribute="bottom" constant="16" id="mh2-CV-EZM"/>
+                            <constraint firstAttribute="bottom" secondItem="556-BB-oaG" secondAttribute="bottom" id="nga-EN-tYb"/>
                             <constraint firstItem="pZ7-k6-dEn" firstAttribute="leading" secondItem="tme-Ln-yyi" secondAttribute="leading" constant="120" id="qcH-wG-wVh"/>
                             <constraint firstItem="275-sQ-naQ" firstAttribute="top" secondItem="pZ7-k6-dEn" secondAttribute="bottom" constant="10" id="sdq-co-5SQ"/>
                             <constraint firstItem="tme-Ln-yyi" firstAttribute="trailing" secondItem="pZ7-k6-dEn" secondAttribute="trailing" constant="120" id="wlE-S8-6ri"/>
                             <constraint firstItem="pZ7-k6-dEn" firstAttribute="top" secondItem="tme-Ln-yyi" secondAttribute="top" constant="40" id="xEH-qA-3bE"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Главная" image="house" catalog="system" selectedImage="house.fill" id="Fgp-Rp-U47">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="collectionView" destination="556-BB-oaG" id="9ob-ok-XSU"/>
                         <outlet property="searchTextField" destination="nwQ-g4-qaZ" id="xrX-BX-LV2"/>
@@ -490,35 +499,35 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T0F-Wv-pQB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4770" y="119"/>
+            <point key="canvasLocation" x="4973.913043478261" y="939.50892857142856"/>
         </scene>
-        <!--Item 2-->
+        <!--Задать вопросы-->
         <scene sceneID="3XV-Go-PTC">
             <objects>
                 <viewController id="Wm1-rF-QyO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6dW-K5-QKg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="J2r-M9-1ng"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="6cB-qr-yuM"/>
+                    <tabBarItem key="tabBarItem" title="Задать вопросы" image="plus.rectangle.fill" catalog="system" landscapeImage="plus.rectangle.fill" selectedImage="plus.rectangle.fill" id="6cB-qr-yuM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ovA-kF-xeT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1967" y="940"/>
         </scene>
-        <!--Item 2-->
+        <!--Общие вопросы-->
         <scene sceneID="2EB-e8-wTm">
             <objects>
                 <viewController id="K3x-Gj-cy5" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q37-e4-0dQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="J2w-xa-8ik"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="eZP-Bt-B7Y"/>
+                    <tabBarItem key="tabBarItem" title="Общие вопросы" image="questionmark.square" catalog="system" selectedImage="questionmark.circle.fill" id="eZP-Bt-B7Y"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nOO-7p-hDc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -527,10 +536,19 @@
     </scenes>
     <resources>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="list.dash" catalog="system" width="128" height="85"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="main_page_background" width="684" height="1394"/>
         <image name="main_page_photo" width="359" height="263"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="person.2" catalog="system" width="128" height="81"/>
+        <image name="person.2.fill" catalog="system" width="128" height="80"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="plus.rectangle.fill" catalog="system" width="128" height="93"/>
+        <image name="questionmark.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="questionmark.square" catalog="system" width="128" height="114"/>
         <image name="vector1" width="414" height="497"/>
         <image name="vector2" width="414" height="719"/>
         <image name="vector3" width="274" height="267"/>
