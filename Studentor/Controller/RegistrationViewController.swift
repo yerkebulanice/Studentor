@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import Firebase
 class RegistrationViewController: UIViewController {
     
     @IBOutlet weak var registrationTextField: UITextField!
@@ -19,7 +19,18 @@ class RegistrationViewController: UIViewController {
     }
     
     @IBAction func forwardButtonPressed(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
+        guard let email = registrationTextField.text else { return }
+        guard let password = passwordTextField.text else { return }
+        
+        Auth.auth().createUser(withEmail: email, password: password) { [weak self]
+            (result, error) in
+            if let error = error {
+                print("Failed to create user, \(error)")
+            } else {
+//                self?.performSegue(withIdentifier: "goToChatFromRegistration", sender: nil)
+                self?.dismiss(animated: true, completion: nil)
+            }
+        }
     }
     
 }

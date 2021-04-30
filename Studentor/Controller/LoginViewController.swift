@@ -6,12 +6,13 @@
 //
 
 import UIKit
-
+import Firebase
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var forwardButton: UIButton!
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         forwardButton.layer.cornerRadius = 16
@@ -19,10 +20,20 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func forwardButtonPressed(_ sender: UIButton) {
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        if let vc = storyboard.instantiateViewController(withIdentifier: "TabBarController") as? TabBarController {
-            vc.modalPresentationStyle = .fullScreen
-            self.present(vc, animated: false, completion: nil)
+        guard let email = emailTextField.text else { return }
+        guard let password = passwordTextField.text else { return }
+        
+        Auth.auth().signIn(withEmail: email, password: password) { [weak self]
+            (result, error) in
+            if error != nil {
+                print("Failed to login in, \(error!)")
+            } else {
+                let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+                if let vc = storyboard.instantiateViewController(withIdentifier: "TabBarController") as? TabBarController {
+                    vc.modalPresentationStyle = .fullScreen
+                    self?.present(vc, animated: false, completion: nil)
+            }
+        }
         }
     }
     

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		060F99D126399676007C0377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060F99CF26399676007C0377 /* LaunchScreen.storyboard */; };
 		060F99E026399CFF007C0377 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060F99DF26399CFF007C0377 /* RegistrationViewController.swift */; };
 		0655965B263B77AD00C089BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0655965A263B77AD00C089BA /* GoogleService-Info.plist */; };
+		06AE9E58263B7E0600B19869 /* MentorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE9E57263B7E0600B19869 /* MentorViewController.swift */; };
+		06AE9E5D263B7F3B00B19869 /* MentorTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE9E5B263B7F3B00B19869 /* MentorTableView.swift */; };
+		06AE9E5E263B7F3B00B19869 /* MentorTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06AE9E5C263B7F3B00B19869 /* MentorTableView.xib */; };
 		06B4856F6841B4C4D0C2492E /* Pods_Studentor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD019FEB07122A1802097CD2 /* Pods_Studentor.framework */; };
 		06EA1500263B3B1E00BA2364 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA14FF263B3B1E00BA2364 /* LoginViewController.swift */; };
 		06EA1503263B467B00BA2364 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA1502263B467B00BA2364 /* BasicViewController.swift */; };
@@ -34,6 +37,9 @@
 		060F99D226399676007C0377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		060F99DF26399CFF007C0377 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		0655965A263B77AD00C089BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		06AE9E57263B7E0600B19869 /* MentorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorViewController.swift; sourceTree = "<group>"; };
+		06AE9E5B263B7F3B00B19869 /* MentorTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorTableView.swift; sourceTree = "<group>"; };
+		06AE9E5C263B7F3B00B19869 /* MentorTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MentorTableView.xib; sourceTree = "<group>"; };
 		06EA14FF263B3B1E00BA2364 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		06EA1502263B467B00BA2364 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
 		06EA1507263B48E400BA2364 /* CoursesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesCollectionView.swift; sourceTree = "<group>"; };
@@ -106,6 +112,7 @@
 				060F99DF26399CFF007C0377 /* RegistrationViewController.swift */,
 				06EA14FF263B3B1E00BA2364 /* LoginViewController.swift */,
 				06EA1502263B467B00BA2364 /* BasicViewController.swift */,
+				06AE9E57263B7E0600B19869 /* MentorViewController.swift */,
 				06EA1525263B6B6E00BA2364 /* TabBarController.swift */,
 			);
 			path = Controller;
@@ -131,6 +138,8 @@
 			children = (
 				06EA1507263B48E400BA2364 /* CoursesCollectionView.swift */,
 				06EA1508263B48E400BA2364 /* CoursesCollectionView.xib */,
+				06AE9E5B263B7F3B00B19869 /* MentorTableView.swift */,
+				06AE9E5C263B7F3B00B19869 /* MentorTableView.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -141,7 +150,6 @@
 				38C6A7026994B082F2F5DAD0 /* Pods-Studentor.debug.xcconfig */,
 				FD9DD5CB2AFD5CD43CF839F6 /* Pods-Studentor.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,6 +222,7 @@
 			files = (
 				060F99D126399676007C0377 /* LaunchScreen.storyboard in Resources */,
 				06EA150A263B48E400BA2364 /* CoursesCollectionView.xib in Resources */,
+				06AE9E5E263B7F3B00B19869 /* MentorTableView.xib in Resources */,
 				0655965B263B77AD00C089BA /* GoogleService-Info.plist in Resources */,
 				060F99CE26399676007C0377 /* Assets.xcassets in Resources */,
 				060F99CC26399673007C0377 /* Main.storyboard in Resources */,
@@ -272,6 +281,8 @@
 				060F99C926399673007C0377 /* MainViewController.swift in Sources */,
 				06EA1526263B6B6E00BA2364 /* TabBarController.swift in Sources */,
 				06EA1503263B467B00BA2364 /* BasicViewController.swift in Sources */,
+				06AE9E58263B7E0600B19869 /* MentorViewController.swift in Sources */,
+				06AE9E5D263B7F3B00B19869 /* MentorTableView.swift in Sources */,
 				06EA1509263B48E400BA2364 /* CoursesCollectionView.swift in Sources */,
 				060F99C526399673007C0377 /* AppDelegate.swift in Sources */,
 				060F99E026399CFF007C0377 /* RegistrationViewController.swift in Sources */,
@@ -434,7 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yerkebulanice.Studentor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,7 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yerkebulanice.Studentor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
