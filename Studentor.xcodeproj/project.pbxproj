@@ -18,6 +18,7 @@
 		06AE9E58263B7E0600B19869 /* MentorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE9E57263B7E0600B19869 /* MentorViewController.swift */; };
 		06AE9E5D263B7F3B00B19869 /* MentorTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE9E5B263B7F3B00B19869 /* MentorTableView.swift */; };
 		06AE9E5E263B7F3B00B19869 /* MentorTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06AE9E5C263B7F3B00B19869 /* MentorTableView.xib */; };
+		06AE9E74263BB14C00B19869 /* QandAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE9E73263BB14C00B19869 /* QandAViewController.swift */; };
 		06B4856F6841B4C4D0C2492E /* Pods_Studentor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD019FEB07122A1802097CD2 /* Pods_Studentor.framework */; };
 		06EA1500263B3B1E00BA2364 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA14FF263B3B1E00BA2364 /* LoginViewController.swift */; };
 		06EA1503263B467B00BA2364 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA1502263B467B00BA2364 /* BasicViewController.swift */; };
@@ -40,6 +41,7 @@
 		06AE9E57263B7E0600B19869 /* MentorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorViewController.swift; sourceTree = "<group>"; };
 		06AE9E5B263B7F3B00B19869 /* MentorTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorTableView.swift; sourceTree = "<group>"; };
 		06AE9E5C263B7F3B00B19869 /* MentorTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MentorTableView.xib; sourceTree = "<group>"; };
+		06AE9E73263BB14C00B19869 /* QandAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QandAViewController.swift; sourceTree = "<group>"; };
 		06EA14FF263B3B1E00BA2364 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		06EA1502263B467B00BA2364 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
 		06EA1507263B48E400BA2364 /* CoursesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesCollectionView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				06EA1502263B467B00BA2364 /* BasicViewController.swift */,
 				06AE9E57263B7E0600B19869 /* MentorViewController.swift */,
 				06EA1525263B6B6E00BA2364 /* TabBarController.swift */,
+				06AE9E73263BB14C00B19869 /* QandAViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				060F99C526399673007C0377 /* AppDelegate.swift in Sources */,
 				060F99E026399CFF007C0377 /* RegistrationViewController.swift in Sources */,
 				06EA1500263B3B1E00BA2364 /* LoginViewController.swift in Sources */,
+				06AE9E74263BB14C00B19869 /* QandAViewController.swift in Sources */,
 				060F99C726399673007C0377 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
