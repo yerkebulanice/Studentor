@@ -8,15 +8,12 @@
 import UIKit
 
 class GeneralQuestionsCell: UITableViewCell {
-
+    public static let identifier: String = "GeneralQuestionsCell"
+    @IBOutlet weak var contentViewChange: UIView!
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
+        contentViewChange.layer.cornerRadius = 8
+        contentViewChange.layer.masksToBounds = true
     }
     
 }

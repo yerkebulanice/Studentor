@@ -380,22 +380,22 @@
                                     <action selector="findButtonPressed:" destination="ZUx-c4-tN4" eventType="touchUpInside" id="FEk-cj-SVx"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GDw-ty-qsS">
-                                <rect key="frame" x="20" y="352" width="374" height="461"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GDw-ty-qsS">
+                                <rect key="frame" x="12" y="337" width="390" height="476"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rWH-ea-B0S"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="rWH-ea-B0S" firstAttribute="trailing" secondItem="GDw-ty-qsS" secondAttribute="trailing" constant="20" id="3Sw-Ux-esH"/>
+                            <constraint firstItem="rWH-ea-B0S" firstAttribute="trailing" secondItem="GDw-ty-qsS" secondAttribute="trailing" constant="12" id="3Sw-Ux-esH"/>
                             <constraint firstItem="Bqb-9d-h8J" firstAttribute="top" secondItem="rWH-ea-B0S" secondAttribute="top" id="CPA-k4-qrR"/>
                             <constraint firstItem="rWH-ea-B0S" firstAttribute="trailing" secondItem="KCJ-t6-pSY" secondAttribute="trailing" constant="63" id="EZo-dW-e8s"/>
                             <constraint firstItem="GDw-ty-qsS" firstAttribute="bottom" secondItem="rWH-ea-B0S" secondAttribute="bottom" id="Jn3-k5-cqk"/>
                             <constraint firstItem="rWH-ea-B0S" firstAttribute="trailing" secondItem="ekY-1o-FMc" secondAttribute="trailing" constant="73" id="LV4-B5-F4K"/>
                             <constraint firstItem="Bqb-9d-h8J" firstAttribute="leading" secondItem="rWH-ea-B0S" secondAttribute="leading" id="NaR-DX-sLt"/>
-                            <constraint firstItem="GDw-ty-qsS" firstAttribute="leading" secondItem="rWH-ea-B0S" secondAttribute="leading" constant="20" id="TO5-vZ-37w"/>
-                            <constraint firstItem="GDw-ty-qsS" firstAttribute="top" secondItem="KCJ-t6-pSY" secondAttribute="bottom" constant="30" id="VXS-d2-c4r"/>
+                            <constraint firstItem="GDw-ty-qsS" firstAttribute="leading" secondItem="rWH-ea-B0S" secondAttribute="leading" constant="12" id="TO5-vZ-37w"/>
+                            <constraint firstItem="GDw-ty-qsS" firstAttribute="top" secondItem="KCJ-t6-pSY" secondAttribute="bottom" constant="15" id="VXS-d2-c4r"/>
                             <constraint firstItem="Bqb-9d-h8J" firstAttribute="trailing" secondItem="rWH-ea-B0S" secondAttribute="trailing" id="VlV-i1-Hue"/>
                             <constraint firstItem="ekY-1o-FMc" firstAttribute="top" secondItem="Bqb-9d-h8J" secondAttribute="bottom" constant="47" id="Wv1-SW-1PA"/>
                             <constraint firstItem="KCJ-t6-pSY" firstAttribute="leading" secondItem="rWH-ea-B0S" secondAttribute="leading" constant="63" id="ivQ-fd-5xv"/>
@@ -822,13 +822,17 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MCQ-q0-hF8">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MCQ-q0-hF8">
                                 <rect key="frame" x="40" y="349.66666666666674" width="334" height="463.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="K3x-Gj-cy5" id="tV7-pa-cNT"/>
+                                    <outlet property="delegate" destination="K3x-Gj-cy5" id="0hs-AU-JHz"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="J2w-xa-8ik"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.90196078430000004" green="0.91764705879999997" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="R7D-OO-8RF" firstAttribute="leading" secondItem="J2w-xa-8ik" secondAttribute="leading" constant="50" id="2xF-qf-ZGR"/>
                             <constraint firstItem="MCQ-q0-hF8" firstAttribute="top" secondItem="X5U-DV-LX8" secondAttribute="bottom" constant="20" id="3Fc-29-1qf"/>
@@ -853,6 +857,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Общие вопросы" image="questionmark.square" catalog="system" selectedImage="questionmark.circle.fill" id="eZP-Bt-B7Y"/>
+                    <connections>
+                        <outlet property="tableView" destination="MCQ-q0-hF8" id="93I-sL-neW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nOO-7p-hDc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
