@@ -8,7 +8,7 @@
 import UIKit
 
 class MentorTableView: UITableViewCell {
-
+    public static let identifier: String = "MentorCell"
     override func awakeFromNib() {
         super.awakeFromNib()
     }

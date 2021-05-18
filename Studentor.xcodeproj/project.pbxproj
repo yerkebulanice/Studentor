@@ -16,6 +16,8 @@
 		060F99E026399CFF007C0377 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060F99DF26399CFF007C0377 /* RegistrationViewController.swift */; };
 		061549092652B7B200E23D1F /* GeneralQuestionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061549072652B7B200E23D1F /* GeneralQuestionsCell.swift */; };
 		0615490A2652B7B200E23D1F /* GeneralQuestionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 061549082652B7B200E23D1F /* GeneralQuestionsCell.xib */; };
+		0615490D2653B21600E23D1F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0615490C2653B21600E23D1F /* ProfileViewController.swift */; };
+		061549102653B2AC00E23D1F /* NewQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0615490F2653B2AC00E23D1F /* NewQuestionViewController.swift */; };
 		0655965B263B77AD00C089BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0655965A263B77AD00C089BA /* GoogleService-Info.plist */; };
 		06AE9E58263B7E0600B19869 /* MentorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE9E57263B7E0600B19869 /* MentorViewController.swift */; };
 		06AE9E5D263B7F3B00B19869 /* MentorTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE9E5B263B7F3B00B19869 /* MentorTableView.swift */; };
@@ -41,6 +43,8 @@
 		060F99DF26399CFF007C0377 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		061549072652B7B200E23D1F /* GeneralQuestionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralQuestionsCell.swift; sourceTree = "<group>"; };
 		061549082652B7B200E23D1F /* GeneralQuestionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeneralQuestionsCell.xib; sourceTree = "<group>"; };
+		0615490C2653B21600E23D1F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0615490F2653B2AC00E23D1F /* NewQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuestionViewController.swift; sourceTree = "<group>"; };
 		0655965A263B77AD00C089BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		06AE9E57263B7E0600B19869 /* MentorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorViewController.swift; sourceTree = "<group>"; };
 		06AE9E5B263B7F3B00B19869 /* MentorTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorTableView.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				06AE9E57263B7E0600B19869 /* MentorViewController.swift */,
 				06EA1525263B6B6E00BA2364 /* TabBarController.swift */,
 				06AE9E73263BB14C00B19869 /* QandAViewController.swift */,
+				0615490C2653B21600E23D1F /* ProfileViewController.swift */,
+				0615490F2653B2AC00E23D1F /* NewQuestionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -298,6 +304,8 @@
 				060F99C526399673007C0377 /* AppDelegate.swift in Sources */,
 				060F99E026399CFF007C0377 /* RegistrationViewController.swift in Sources */,
 				06EA1500263B3B1E00BA2364 /* LoginViewController.swift in Sources */,
+				0615490D2653B21600E23D1F /* ProfileViewController.swift in Sources */,
+				061549102653B2AC00E23D1F /* NewQuestionViewController.swift in Sources */,
 				06AE9E74263BB14C00B19869 /* QandAViewController.swift in Sources */,
 				060F99C726399673007C0377 /* SceneDelegate.swift in Sources */,
 			);

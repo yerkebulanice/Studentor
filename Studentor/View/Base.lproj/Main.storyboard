@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Image references" minToolsVersion="12.0"/>
@@ -32,7 +32,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3QS-Yi-N39">
-                                <rect key="frame" x="363" y="63" width="35" height="29"/>
+                                <rect key="frame" x="363" y="63.333333333333314" width="35" height="28.666666666666686"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="4Hm-zi-fti"/>
                                     <constraint firstAttribute="width" constant="35" id="IMn-U3-yFp"/>
@@ -43,21 +43,22 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Облегчение жизни студентов" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnd-L9-En8">
-                                <rect key="frame" x="20" y="195" width="374" height="76.5"/>
+                                <rect key="frame" x="20" y="195" width="374" height="76.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <color key="textColor" red="0.058823529409999999" green="0.062745098040000002" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Учи. Учись. Зарабатывай" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4tR-9s-okY">
-                                <rect key="frame" x="20" y="321.5" width="374" height="32"/>
+                                <rect key="frame" x="20" y="321.66666666666669" width="374" height="32"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" red="0.058823529409999999" green="0.062745098040000002" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwI-ih-AnL">
-                                <rect key="frame" x="100" y="388.5" width="214" height="60"/>
+                                <rect key="frame" x="100" y="388.66666666666669" width="214" height="60"/>
                                 <color key="backgroundColor" red="0.20784313725490194" green="0.35686274509803922" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="214" id="BpW-qc-SsW"/>
                                     <constraint firstAttribute="height" constant="60" id="SzU-mc-EQI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -69,7 +70,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_page_photo" translatesAutoresizingMaskIntoConstraints="NO" id="ZvC-zb-mCf">
-                                <rect key="frame" x="20" y="508.5" width="374" height="263"/>
+                                <rect key="frame" x="20" y="508.66666666666674" width="374" height="263"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -121,7 +122,7 @@
                                 <rect key="frame" x="0.0" y="177" width="414" height="719"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Регистрация аккаунта" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FG5-St-ENo">
-                                <rect key="frame" x="20" y="69" width="374" height="31.5"/>
+                                <rect key="frame" x="20" y="69" width="374" height="31.333333333333329"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="bga-KH-SPY"/>
                                 </constraints>
@@ -130,15 +131,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ajm-wy-nPm">
-                                <rect key="frame" x="55" y="340.5" width="304" height="100"/>
+                                <rect key="frame" x="55" y="340.33333333333331" width="304" height="100"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4t1-3D-jhq">
-                                        <rect key="frame" x="0.0" y="0.0" width="304" height="42.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="304" height="42.666666666666664"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xJG-Xj-FRZ">
-                                        <rect key="frame" x="0.0" y="57.5" width="304" height="42.5"/>
+                                        <rect key="frame" x="0.0" y="57.666666666666686" width="304" height="42.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
@@ -150,7 +151,7 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Регистрация" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prS-TL-5Js">
-                                <rect key="frame" x="55" y="542" width="172" height="33.5"/>
+                                <rect key="frame" x="55" y="542" width="172" height="33.666666666666629"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="172" id="w6h-ES-u1O"/>
                                 </constraints>
@@ -284,7 +285,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Войти" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yFi-f4-vIm">
-                                <rect key="frame" x="55" y="708" width="172" height="33.5"/>
+                                <rect key="frame" x="55" y="708" width="172" height="33.666666666666629"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="172" id="kmM-Wy-jh6"/>
                                 </constraints>
@@ -293,7 +294,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="99W-9O-Ql1">
-                                <rect key="frame" x="55" y="831.5" width="96" height="30"/>
+                                <rect key="frame" x="55" y="831.66666666666663" width="96" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="Регистрация">
                                     <color key="titleColor" red="0.058823529409999999" green="0.062745098040000002" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -415,7 +416,7 @@
         <!--Profile-->
         <scene sceneID="rzF-E2-6xx">
             <objects>
-                <viewController id="QCj-df-otK" sceneMemberID="viewController">
+                <viewController id="QCj-df-otK" customClass="ProfileViewController" customModule="Studentor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fVM-HL-6cI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -461,27 +462,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Привет, Сэм" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZ7-k6-dEn">
-                                <rect key="frame" x="120" y="84" width="174" height="35"/>
+                                <rect key="frame" x="120" y="84" width="174" height="34.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Есть вопросы на сегодня? Найди все свои ответы" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="275-sQ-naQ">
-                                <rect key="frame" x="90" y="129" width="234" height="41"/>
+                                <rect key="frame" x="90" y="128.66666666666666" width="234" height="40.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pXA-Rg-pYU">
-                                <rect key="frame" x="80" y="190" width="254" height="34"/>
+                                <rect key="frame" x="80" y="189.33333333333334" width="254" height="34"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Что такое итератор в C++?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nwQ-g4-qaZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="234" height="34"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="234.33333333333334" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSP-aP-fg0">
-                                        <rect key="frame" x="234" y="0.0" width="20" height="34"/>
+                                        <rect key="frame" x="234.33333333333331" y="0.0" width="19.666666666666657" height="34"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" image="magnifyingglass" catalog="system"/>
                                         <connections>
@@ -491,13 +492,13 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Недавние уроки" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1g-T9-9yC">
-                                <rect key="frame" x="20" y="259" width="374" height="25.5"/>
+                                <rect key="frame" x="20" y="258.33333333333331" width="374" height="25.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="556-BB-oaG">
-                                <rect key="frame" x="20" y="300.5" width="374" height="512.5"/>
+                                <rect key="frame" x="20" y="299.66666666666669" width="374" height="513.33333333333326"/>
                                 <color key="backgroundColor" red="0.90196078430000004" green="0.91372549020000005" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.90196078430000004" green="0.91372549020000005" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="u3k-Wq-X9f">
@@ -559,7 +560,7 @@
         <!--Задать вопросы-->
         <scene sceneID="3XV-Go-PTC">
             <objects>
-                <viewController id="Wm1-rF-QyO" sceneMemberID="viewController">
+                <viewController id="Wm1-rF-QyO" customClass="NewQuestionViewController" customModule="Studentor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6dW-K5-QKg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -568,28 +569,28 @@
                                 <rect key="frame" x="8" y="64" width="398" height="741"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Новый вопрос" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWk-6a-tb5">
-                                        <rect key="frame" x="8" y="8" width="382" height="32.5"/>
+                                        <rect key="frame" x="8" y="8" width="382" height="32.333333333333336"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ваш вопрос" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Owq-6w-awu">
-                                        <rect key="frame" x="8" y="224.5" width="110" height="20.5"/>
+                                        <rect key="frame" x="8" y="224.33333333333331" width="110" height="20.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дедлайн" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAn-cJ-fwV">
-                                        <rect key="frame" x="8" y="265" width="71" height="20.5"/>
+                                        <rect key="frame" x="8" y="264.66666666666669" width="69.666666666666671" height="20.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="just" translatesAutoresizingMaskIntoConstraints="NO" id="cOD-pG-3Hb">
-                                        <rect key="frame" x="8" y="54.5" width="382" height="108"/>
+                                        <rect key="frame" x="8" y="54.333333333333329" width="382" height="107.99999999999999"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="OJi-hJ-W45">
-                                        <rect key="frame" x="8" y="176.5" width="382" height="34"/>
+                                        <rect key="frame" x="8" y="176.33333333333334" width="382" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дисциплина вопроса" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tht-Aq-paQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="170" height="34"/>
@@ -613,43 +614,46 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YUn-RJ-TWx">
-                                        <rect key="frame" x="104" y="260" width="128" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="21.05.2021" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YUn-RJ-TWx">
+                                        <rect key="frame" x="102.66666666666667" y="260" width="129.33333333333331" height="34"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="128" id="06C-ND-EiL"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="128" id="06C-ND-EiL"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pNH-VY-WEv">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="09:00" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pNH-VY-WEv">
                                         <rect key="frame" x="248" y="260" width="142" height="34"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="142" id="w4F-lX-oJI"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="142" id="w4F-lX-oJI"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRC-Id-rnn">
-                                        <rect key="frame" x="209" y="266" width="21" height="22"/>
+                                        <rect key="frame" x="209.33333333333334" y="266" width="20.666666666666657" height="22"/>
                                         <state key="normal" image="calendar" catalog="system"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlW-tz-vRr">
-                                        <rect key="frame" x="362" y="267" width="20" height="22"/>
+                                        <rect key="frame" x="362.33333333333331" y="267" width="19.666666666666686" height="22"/>
                                         <state key="normal" image="timer" catalog="system"/>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="lzR-cl-QVW">
                                         <rect key="frame" x="190" y="684" width="200" height="41"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aru-x4-2QA">
-                                                <rect key="frame" x="0.0" y="0.0" width="92.5" height="41"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="92.666666666666671" height="41"/>
                                                 <color key="backgroundColor" red="0.20784313730000001" green="0.35686274509999999" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                                 <state key="normal" title="Задать">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="askQuestionButtonPressed:" destination="Wm1-rF-QyO" eventType="touchUpInside" id="tvL-s4-n4O"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cS-0W-EPY">
-                                                <rect key="frame" x="107.5" y="0.0" width="92.5" height="41"/>
+                                                <rect key="frame" x="107.66666666666669" y="0.0" width="92.333333333333314" height="41"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                                 <state key="normal" title="Close">
@@ -661,19 +665,47 @@
                                             <constraint firstAttribute="width" constant="200" id="TAg-Zf-Hm7"/>
                                         </constraints>
                                     </stackView>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ваш вопрос успешно добавлен!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czu-6k-bfN">
-                                        <rect key="frame" x="4" y="334" width="390" height="86"/>
-                                        <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RcJ-tG-f4o">
+                                        <rect key="frame" x="8" y="310" width="382" height="424"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tsi-JI-D8I">
+                                                <rect key="frame" x="8" y="8" width="366" height="408"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addedquestion" translatesAutoresizingMaskIntoConstraints="NO" id="8dJ-ob-dRZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="366" height="278"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ваш вопрос успешно добавлен!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czu-6k-bfN">
+                                                        <rect key="frame" x="0.0" y="278" width="366" height="86"/>
+                                                        <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4c-eI-I6N">
+                                                        <rect key="frame" x="0.0" y="364" width="366" height="44"/>
+                                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                                        <state key="normal" title="Close">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="tsi-JI-D8I" secondAttribute="bottom" constant="8" id="567-3h-mqv"/>
+                                            <constraint firstAttribute="trailing" secondItem="tsi-JI-D8I" secondAttribute="trailing" constant="8" id="DCN-RG-rIO"/>
+                                            <constraint firstItem="tsi-JI-D8I" firstAttribute="leading" secondItem="RcJ-tG-f4o" secondAttribute="leading" constant="8" id="JfQ-34-xns"/>
+                                            <constraint firstItem="tsi-JI-D8I" firstAttribute="top" secondItem="RcJ-tG-f4o" secondAttribute="top" constant="8" id="p7b-cl-4ZO"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="RcJ-tG-f4o" secondAttribute="trailing" constant="8" id="1Mq-yt-8tf"/>
                                     <constraint firstItem="cOD-pG-3Hb" firstAttribute="leading" secondItem="zxt-Ad-KJO" secondAttribute="leading" constant="8" id="3ga-zD-1aP"/>
                                     <constraint firstAttribute="bottom" secondItem="lzR-cl-QVW" secondAttribute="bottom" constant="16" id="604-eo-FCb"/>
-                                    <constraint firstItem="Czu-6k-bfN" firstAttribute="top" secondItem="YUn-RJ-TWx" secondAttribute="bottom" constant="40" id="6mL-us-Y1n"/>
                                     <constraint firstAttribute="trailing" secondItem="AaL-Wx-sMc" secondAttribute="trailing" constant="8" id="ABq-rO-5Nv"/>
                                     <constraint firstItem="AaL-Wx-sMc" firstAttribute="leading" secondItem="Owq-6w-awu" secondAttribute="trailing" constant="30" id="Aez-xv-lEE"/>
                                     <constraint firstItem="YUn-RJ-TWx" firstAttribute="leading" secondItem="lAn-cJ-fwV" secondAttribute="trailing" constant="25" id="CQ5-wq-BOv"/>
@@ -681,6 +713,7 @@
                                     <constraint firstItem="Owq-6w-awu" firstAttribute="leading" secondItem="zxt-Ad-KJO" secondAttribute="leading" constant="8" id="EZa-RM-MiP"/>
                                     <constraint firstItem="Owq-6w-awu" firstAttribute="top" secondItem="OJi-hJ-W45" secondAttribute="bottom" constant="14" id="HaV-MN-v67"/>
                                     <constraint firstAttribute="trailing" secondItem="tWk-6a-tb5" secondAttribute="trailing" constant="8" id="OVG-mG-2YN"/>
+                                    <constraint firstItem="RcJ-tG-f4o" firstAttribute="leading" secondItem="zxt-Ad-KJO" secondAttribute="leading" constant="8" id="Ouz-1E-Maf"/>
                                     <constraint firstItem="pNH-VY-WEv" firstAttribute="leading" secondItem="XRC-Id-rnn" secondAttribute="trailing" constant="18" id="P0N-h4-FtR"/>
                                     <constraint firstItem="OJi-hJ-W45" firstAttribute="leading" secondItem="zxt-Ad-KJO" secondAttribute="leading" constant="8" id="Psc-Vq-pO4"/>
                                     <constraint firstItem="pNH-VY-WEv" firstAttribute="top" secondItem="AaL-Wx-sMc" secondAttribute="bottom" constant="8" id="Q7d-mf-xgb"/>
@@ -689,9 +722,8 @@
                                     <constraint firstItem="YUn-RJ-TWx" firstAttribute="top" secondItem="AaL-Wx-sMc" secondAttribute="bottom" constant="8" id="RT4-ib-rEH"/>
                                     <constraint firstItem="AaL-Wx-sMc" firstAttribute="top" secondItem="OJi-hJ-W45" secondAttribute="bottom" constant="7.5" id="Swp-8O-bTE"/>
                                     <constraint firstItem="lAn-cJ-fwV" firstAttribute="leading" secondItem="zxt-Ad-KJO" secondAttribute="leading" constant="8" id="Uq9-ch-1ng"/>
-                                    <constraint firstItem="Czu-6k-bfN" firstAttribute="leading" secondItem="zxt-Ad-KJO" secondAttribute="leading" constant="4" id="VqV-2z-9OC"/>
-                                    <constraint firstAttribute="trailing" secondItem="Czu-6k-bfN" secondAttribute="trailing" constant="4" id="XVi-fH-KfZ"/>
                                     <constraint firstAttribute="trailing" secondItem="pNH-VY-WEv" secondAttribute="trailing" constant="8" id="YUx-N7-EdJ"/>
+                                    <constraint firstItem="RcJ-tG-f4o" firstAttribute="top" secondItem="YUn-RJ-TWx" secondAttribute="bottom" constant="16" id="ZB4-YU-Lbp"/>
                                     <constraint firstItem="cOD-pG-3Hb" firstAttribute="top" secondItem="tWk-6a-tb5" secondAttribute="bottom" constant="14" id="f3I-ah-YHp"/>
                                     <constraint firstItem="lAn-cJ-fwV" firstAttribute="top" secondItem="Owq-6w-awu" secondAttribute="bottom" constant="20" id="hVO-oe-Pbb"/>
                                     <constraint firstAttribute="trailing" secondItem="OJi-hJ-W45" secondAttribute="trailing" constant="8" id="i5u-x4-Spz"/>
@@ -714,6 +746,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Задать вопросы" image="plus.rectangle.fill" catalog="system" landscapeImage="plus.rectangle.fill" selectedImage="plus.rectangle.fill" id="6cB-qr-yuM"/>
+                    <connections>
+                        <outlet property="addedQuestionReminderView" destination="RcJ-tG-f4o" id="wCu-eh-spO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ovA-kF-xeT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -722,7 +757,7 @@
         <!--Общие вопросы-->
         <scene sceneID="2EB-e8-wTm">
             <objects>
-                <viewController id="K3x-Gj-cy5" sceneMemberID="viewController">
+                <viewController id="K3x-Gj-cy5" customClass="QandAViewController" customModule="Studentor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q37-e4-0dQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -734,7 +769,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQm-9h-IG7">
-                                <rect key="frame" x="214" y="230" width="160" height="40"/>
+                                <rect key="frame" x="214" y="229.66666666666666" width="160" height="39.999999999999972"/>
                                 <color key="backgroundColor" red="0.97052580119999998" green="0.70857340099999999" blue="0.040742956099999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="QxE-X6-Mz7"/>
@@ -746,7 +781,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5U-DV-LX8">
-                                <rect key="frame" x="214" y="290" width="160" height="40"/>
+                                <rect key="frame" x="214" y="289.66666666666669" width="160" height="40"/>
                                 <color key="backgroundColor" red="0.86027759309999996" green="0.43236392740000001" blue="0.89907962080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="SwC-hF-Qnw"/>
@@ -758,7 +793,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGb-xC-L7Z">
-                                <rect key="frame" x="40" y="290" width="160" height="40"/>
+                                <rect key="frame" x="40" y="289.66666666666669" width="160" height="40"/>
                                 <color key="backgroundColor" red="0.1184374616" green="0.77068036790000005" blue="0.37825930120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="GeQ-5E-9Yn"/>
@@ -770,13 +805,13 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Есть вопросы на сегодня?                              Найди все свои ответы " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XY-sQ-Mi2">
-                                <rect key="frame" x="20" y="147" width="374" height="53"/>
+                                <rect key="frame" x="20" y="147" width="374" height="52.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tr8-NO-UiD">
-                                <rect key="frame" x="40" y="230" width="160" height="40"/>
+                                <rect key="frame" x="40" y="229.66666666666666" width="160" height="39.999999999999972"/>
                                 <color key="backgroundColor" red="0.13957202430000001" green="0.53108245129999998" blue="0.9376849532" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="hxg-2N-tuA"/>
@@ -788,7 +823,7 @@
                                 </state>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MCQ-q0-hF8">
-                                <rect key="frame" x="40" y="350" width="334" height="463"/>
+                                <rect key="frame" x="40" y="349.66666666666674" width="334" height="463.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -825,6 +860,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="addedquestion" width="288" height="278"/>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
         <image name="calendar" catalog="system" width="128" height="106"/>
         <image name="house" catalog="system" width="128" height="106"/>
@@ -852,6 +888,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

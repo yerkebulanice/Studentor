@@ -18,6 +18,7 @@ class MentorViewController: UIViewController {
         findButton.layer.masksToBounds = true
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.register(UINib(nibName: MentorTableView.identifier, bundle: Bundle(for: MentorTableView.self)), forCellReuseIdentifier: MentorTableView.identifier)
     }
 
     @IBAction func findButtonPressed(_ sender: UIButton) {
@@ -35,7 +36,8 @@ extension MentorViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: MentorTableView.identifier, for: indexPath) as! MentorTableView
+        return cell
     }
     
     
