@@ -19,6 +19,7 @@
 		0615490D2653B21600E23D1F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0615490C2653B21600E23D1F /* ProfileViewController.swift */; };
 		061549102653B2AC00E23D1F /* NewQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0615490F2653B2AC00E23D1F /* NewQuestionViewController.swift */; };
 		0655965B263B77AD00C089BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0655965A263B77AD00C089BA /* GoogleService-Info.plist */; };
+		068D6691265B5F4A00B7C4AD /* QuestionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068D6690265B5F4A00B7C4AD /* QuestionEntity.swift */; };
 		06AE9E58263B7E0600B19869 /* MentorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE9E57263B7E0600B19869 /* MentorViewController.swift */; };
 		06AE9E5D263B7F3B00B19869 /* MentorTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE9E5B263B7F3B00B19869 /* MentorTableView.swift */; };
 		06AE9E5E263B7F3B00B19869 /* MentorTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06AE9E5C263B7F3B00B19869 /* MentorTableView.xib */; };
@@ -46,6 +47,7 @@
 		0615490C2653B21600E23D1F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0615490F2653B2AC00E23D1F /* NewQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuestionViewController.swift; sourceTree = "<group>"; };
 		0655965A263B77AD00C089BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		068D6690265B5F4A00B7C4AD /* QuestionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionEntity.swift; sourceTree = "<group>"; };
 		06AE9E57263B7E0600B19869 /* MentorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorViewController.swift; sourceTree = "<group>"; };
 		06AE9E5B263B7F3B00B19869 /* MentorTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorTableView.swift; sourceTree = "<group>"; };
 		06AE9E5C263B7F3B00B19869 /* MentorTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MentorTableView.xib; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		060F99DC26399720007C0377 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				068D6690265B5F4A00B7C4AD /* QuestionEntity.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				0615490D2653B21600E23D1F /* ProfileViewController.swift in Sources */,
 				061549102653B2AC00E23D1F /* NewQuestionViewController.swift in Sources */,
 				06AE9E74263BB14C00B19869 /* QandAViewController.swift in Sources */,
+				068D6691265B5F4A00B7C4AD /* QuestionEntity.swift in Sources */,
 				060F99C726399673007C0377 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

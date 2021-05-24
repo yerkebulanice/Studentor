@@ -639,10 +639,10 @@
                                         <state key="normal" image="timer" catalog="system"/>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="lzR-cl-QVW">
-                                        <rect key="frame" x="190" y="684" width="200" height="41"/>
+                                        <rect key="frame" x="8" y="661" width="382" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aru-x4-2QA">
-                                                <rect key="frame" x="0.0" y="0.0" width="92.666666666666671" height="41"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
                                                 <color key="backgroundColor" red="0.20784313730000001" green="0.35686274509999999" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                                 <state key="normal" title="Задать">
@@ -652,42 +652,37 @@
                                                     <action selector="askQuestionButtonPressed:" destination="Wm1-rF-QyO" eventType="touchUpInside" id="tvL-s4-n4O"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cS-0W-EPY">
-                                                <rect key="frame" x="107.66666666666669" y="0.0" width="92.333333333333314" height="41"/>
-                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
-                                                <state key="normal" title="Close">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                            </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="TAg-Zf-Hm7"/>
+                                            <constraint firstAttribute="height" constant="50" id="dmB-gG-3vH"/>
                                         </constraints>
                                     </stackView>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RcJ-tG-f4o">
-                                        <rect key="frame" x="8" y="310" width="382" height="424"/>
+                                        <rect key="frame" x="0.0" y="318" width="398" height="424"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tsi-JI-D8I">
-                                                <rect key="frame" x="8" y="8" width="366" height="408"/>
+                                                <rect key="frame" x="8" y="8" width="382" height="408"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addedquestion" translatesAutoresizingMaskIntoConstraints="NO" id="8dJ-ob-dRZ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="366" height="278"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="382" height="278"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ваш вопрос успешно добавлен!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czu-6k-bfN">
-                                                        <rect key="frame" x="0.0" y="278" width="366" height="86"/>
+                                                        <rect key="frame" x="0.0" y="278" width="382" height="86"/>
                                                         <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4c-eI-I6N">
-                                                        <rect key="frame" x="0.0" y="364" width="366" height="44"/>
+                                                        <rect key="frame" x="0.0" y="364" width="382" height="44"/>
                                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                                         <state key="normal" title="Close">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="closeButtonInViewPressed:" destination="Wm1-rF-QyO" eventType="touchUpInside" id="tnv-hb-4VM"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -703,9 +698,9 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="RcJ-tG-f4o" secondAttribute="trailing" constant="8" id="1Mq-yt-8tf"/>
+                                    <constraint firstAttribute="trailing" secondItem="RcJ-tG-f4o" secondAttribute="trailing" id="1Mq-yt-8tf"/>
                                     <constraint firstItem="cOD-pG-3Hb" firstAttribute="leading" secondItem="zxt-Ad-KJO" secondAttribute="leading" constant="8" id="3ga-zD-1aP"/>
-                                    <constraint firstAttribute="bottom" secondItem="lzR-cl-QVW" secondAttribute="bottom" constant="16" id="604-eo-FCb"/>
+                                    <constraint firstAttribute="bottom" secondItem="lzR-cl-QVW" secondAttribute="bottom" constant="30" id="604-eo-FCb"/>
                                     <constraint firstAttribute="trailing" secondItem="AaL-Wx-sMc" secondAttribute="trailing" constant="8" id="ABq-rO-5Nv"/>
                                     <constraint firstItem="AaL-Wx-sMc" firstAttribute="leading" secondItem="Owq-6w-awu" secondAttribute="trailing" constant="30" id="Aez-xv-lEE"/>
                                     <constraint firstItem="YUn-RJ-TWx" firstAttribute="leading" secondItem="lAn-cJ-fwV" secondAttribute="trailing" constant="25" id="CQ5-wq-BOv"/>
@@ -713,7 +708,7 @@
                                     <constraint firstItem="Owq-6w-awu" firstAttribute="leading" secondItem="zxt-Ad-KJO" secondAttribute="leading" constant="8" id="EZa-RM-MiP"/>
                                     <constraint firstItem="Owq-6w-awu" firstAttribute="top" secondItem="OJi-hJ-W45" secondAttribute="bottom" constant="14" id="HaV-MN-v67"/>
                                     <constraint firstAttribute="trailing" secondItem="tWk-6a-tb5" secondAttribute="trailing" constant="8" id="OVG-mG-2YN"/>
-                                    <constraint firstItem="RcJ-tG-f4o" firstAttribute="leading" secondItem="zxt-Ad-KJO" secondAttribute="leading" constant="8" id="Ouz-1E-Maf"/>
+                                    <constraint firstItem="RcJ-tG-f4o" firstAttribute="leading" secondItem="zxt-Ad-KJO" secondAttribute="leading" id="Ouz-1E-Maf"/>
                                     <constraint firstItem="pNH-VY-WEv" firstAttribute="leading" secondItem="XRC-Id-rnn" secondAttribute="trailing" constant="18" id="P0N-h4-FtR"/>
                                     <constraint firstItem="OJi-hJ-W45" firstAttribute="leading" secondItem="zxt-Ad-KJO" secondAttribute="leading" constant="8" id="Psc-Vq-pO4"/>
                                     <constraint firstItem="pNH-VY-WEv" firstAttribute="top" secondItem="AaL-Wx-sMc" secondAttribute="bottom" constant="8" id="Q7d-mf-xgb"/>
@@ -722,8 +717,9 @@
                                     <constraint firstItem="YUn-RJ-TWx" firstAttribute="top" secondItem="AaL-Wx-sMc" secondAttribute="bottom" constant="8" id="RT4-ib-rEH"/>
                                     <constraint firstItem="AaL-Wx-sMc" firstAttribute="top" secondItem="OJi-hJ-W45" secondAttribute="bottom" constant="7.5" id="Swp-8O-bTE"/>
                                     <constraint firstItem="lAn-cJ-fwV" firstAttribute="leading" secondItem="zxt-Ad-KJO" secondAttribute="leading" constant="8" id="Uq9-ch-1ng"/>
+                                    <constraint firstItem="lzR-cl-QVW" firstAttribute="leading" secondItem="zxt-Ad-KJO" secondAttribute="leading" constant="8" id="Xvy-ju-QvV"/>
                                     <constraint firstAttribute="trailing" secondItem="pNH-VY-WEv" secondAttribute="trailing" constant="8" id="YUx-N7-EdJ"/>
-                                    <constraint firstItem="RcJ-tG-f4o" firstAttribute="top" secondItem="YUn-RJ-TWx" secondAttribute="bottom" constant="16" id="ZB4-YU-Lbp"/>
+                                    <constraint firstItem="RcJ-tG-f4o" firstAttribute="top" secondItem="YUn-RJ-TWx" secondAttribute="bottom" constant="24" id="ZB4-YU-Lbp"/>
                                     <constraint firstItem="cOD-pG-3Hb" firstAttribute="top" secondItem="tWk-6a-tb5" secondAttribute="bottom" constant="14" id="f3I-ah-YHp"/>
                                     <constraint firstItem="lAn-cJ-fwV" firstAttribute="top" secondItem="Owq-6w-awu" secondAttribute="bottom" constant="20" id="hVO-oe-Pbb"/>
                                     <constraint firstAttribute="trailing" secondItem="OJi-hJ-W45" secondAttribute="trailing" constant="8" id="i5u-x4-Spz"/>
@@ -748,6 +744,11 @@
                     <tabBarItem key="tabBarItem" title="Задать вопросы" image="plus.rectangle.fill" catalog="system" landscapeImage="plus.rectangle.fill" selectedImage="plus.rectangle.fill" id="6cB-qr-yuM"/>
                     <connections>
                         <outlet property="addedQuestionReminderView" destination="RcJ-tG-f4o" id="wCu-eh-spO"/>
+                        <outlet property="askQuestionButton" destination="Aru-x4-2QA" id="T7D-bi-Duc"/>
+                        <outlet property="courseNameTextField" destination="xG8-oi-XEl" id="tS1-TF-NCN"/>
+                        <outlet property="deadlineDateTextField" destination="YUn-RJ-TWx" id="dS7-B4-d37"/>
+                        <outlet property="deadlineTimeTextField" destination="pNH-VY-WEv" id="A7k-NR-b9D"/>
+                        <outlet property="questionTextField" destination="AaL-Wx-sMc" id="vPK-XL-zaa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ovA-kF-xeT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -757,7 +758,7 @@
         <!--Общие вопросы-->
         <scene sceneID="2EB-e8-wTm">
             <objects>
-                <viewController id="K3x-Gj-cy5" customClass="QandAViewController" customModule="Studentor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QandAViewController" id="K3x-Gj-cy5" customClass="QandAViewController" customModule="Studentor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q37-e4-0dQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -898,9 +899,6 @@
         </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
