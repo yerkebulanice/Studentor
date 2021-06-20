@@ -23,7 +23,6 @@ class QandAViewController: UIViewController {
         super.viewWillAppear(animated)
         fetchQuestionsFromFirebase()
     }
-    
 }
 
 extension QandAViewController: UITableViewDelegate, UITableViewDataSource {
